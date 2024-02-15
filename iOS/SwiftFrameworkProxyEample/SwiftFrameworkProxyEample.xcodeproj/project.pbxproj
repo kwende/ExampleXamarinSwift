@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		F62B0FD72B7EB5C50023F07E /* SwiftFrameworkProxyEample.h in Headers */ = {isa = PBXBuildFile; fileRef = F62B0FD62B7EB5C50023F07E /* SwiftFrameworkProxyEample.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F62B0FE62B7EBD8A0023F07E /* Gigya.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F62B0FDE2B7EBCC10023F07E /* Gigya.xcframework */; };
+		F62B0FE92B7EC3470023F07E /* SwiftFrameworkProxyExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62B0FE82B7EC3470023F07E /* SwiftFrameworkProxyExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F62B0FD32B7EB5C50023F07E /* SwiftFrameworkProxyEample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftFrameworkProxyEample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F62B0FD62B7EB5C50023F07E /* SwiftFrameworkProxyEample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftFrameworkProxyEample.h; sourceTree = "<group>"; };
 		F62B0FDE2B7EBCC10023F07E /* Gigya.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Gigya.xcframework; path = ../../../../../Downloads/Gigya.xcframework; sourceTree = "<group>"; };
+		F62B0FE82B7EC3470023F07E /* SwiftFrameworkProxyExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFrameworkProxyExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				F62B0FD62B7EB5C50023F07E /* SwiftFrameworkProxyEample.h */,
+				F62B0FE82B7EC3470023F07E /* SwiftFrameworkProxyExample.swift */,
 			);
 			path = SwiftFrameworkProxyEample;
 			sourceTree = "<group>";
@@ -105,6 +108,7 @@
 				TargetAttributes = {
 					F62B0FD22B7EB5C50023F07E = {
 						CreatedOnToolsVersion = 15.1;
+						LastSwiftMigration = 1510;
 					};
 				};
 			};
@@ -141,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F62B0FE92B7EC3470023F07E /* SwiftFrameworkProxyExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +280,7 @@
 		F62B0FDB2B7EB5C50023F07E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -297,6 +303,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,6 +312,7 @@
 		F62B0FDC2B7EB5C50023F07E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
