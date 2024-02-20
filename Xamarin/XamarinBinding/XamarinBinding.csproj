@@ -47,8 +47,8 @@
     <ObjcBindingCoreSource Include="Structs.cs" />
   </ItemGroup>
   <ItemGroup>
-    <NativeReference Include="..\..\iOS\AzureCommunicationCallingProxy-ios.xcarchive">
-      <Kind>Static</Kind>
+    <NativeReference Include="..\..\iOS\AzureCommunicationCallingProxy.framework">
+      <Kind>Framework</Kind>
       <SmartLink>False</SmartLink>
     </NativeReference>
   </ItemGroup>

@@ -1,4 +1,6 @@
-﻿namespace XamarinBindings
+﻿using Foundation; 
+
+namespace XamarinBindings
 {
     // @interface AzureCommunicationCallingProxy : NSObject
     [BaseType(typeof(NSObject))]
