@@ -1,0 +1,11 @@
+framework module AzureCommunicationCallingProxy {
+  umbrella header "AzureCommunicationCallingProxy.h"
+  export *
+
+  module * { export * }
+}
+
+module AzureCommunicationCallingProxy.Swift {
+  header "AzureCommunicationCallingProxy-Swift.h"
+  requires objc
+}
