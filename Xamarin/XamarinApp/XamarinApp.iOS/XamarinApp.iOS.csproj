@@ -138,8 +138,12 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\XamarinApp\XamarinApp.csproj">
-      <Project>{1D4FDE38-085A-4340-9480-44035E1009CC}</Project>
+      <Project>{ECF7CABB-E184-4A46-939A-0A4BBCC75935}</Project>
       <Name>XamarinApp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\XamarinBinding\XamarinBinding.csproj">
+      <Project>{651DA5D0-419C-4A27-94DC-03A53188D012}</Project>
+      <Name>XamarinBinding</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>
