@@ -1,0 +1,8 @@
+D:\repos\ExampleXamarinSwift\Xamarin\XamarinBinding\bin\Debug\NativeLibrary.dll
+D:\repos\ExampleXamarinSwift\Xamarin\XamarinBinding\bin\Debug\NativeLibrary.pdb
+D:\repos\ExampleXamarinSwift\Xamarin\XamarinBinding\obj\Debug\_ProcessedBundleResourcesPath.items
+D:\repos\ExampleXamarinSwift\Xamarin\XamarinBinding\obj\Debug\_ProcessedContentPath.items
+D:\repos\ExampleXamarinSwift\Xamarin\XamarinBinding\obj\Debug\XamarinBinding.csproj.AssemblyReference.cache
+D:\repos\ExampleXamarinSwift\Xamarin\XamarinBinding\obj\Debug\XamarinBinding.csproj.CoreCompileInputs.cache
+D:\repos\ExampleXamarinSwift\Xamarin\XamarinBinding\obj\Debug\NativeLibrary.dll
+D:\repos\ExampleXamarinSwift\Xamarin\XamarinBinding\obj\Debug\NativeLibrary.pdb

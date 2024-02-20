@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = XamarinApp
+build_property.ProjectDir = D:\repos\ExampleXamarinSwift\Xamarin\XamarinApp\XamarinApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

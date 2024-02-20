@@ -1,0 +1,46 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\repos\\ExampleXamarinSwift\\Xamarin\\XamarinBinding\\XamarinBinding.csproj": {}
+  },
+  "projects": {
+    "D:\\repos\\ExampleXamarinSwift\\Xamarin\\XamarinBinding\\XamarinBinding.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\repos\\ExampleXamarinSwift\\Xamarin\\XamarinBinding\\XamarinBinding.csproj",
+        "projectName": "NativeLibrary",
+        "projectPath": "D:\\repos\\ExampleXamarinSwift\\Xamarin\\XamarinBinding\\XamarinBinding.csproj",
+        "packagesPath": "C:\\Users\\brush\\.nuget\\packages\\",
+        "outputPath": "D:\\repos\\ExampleXamarinSwift\\Xamarin\\XamarinBinding\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\brush\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ocuvera/_packaging/ocuvera/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {}
+      }
+    }
+  }
+}
